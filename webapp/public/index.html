@@ -1,0 +1,82 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Detection of Sensitive Data exposure in Images">
+    <title>Sensitivity Checker</title>
+    <link rel="icon" href="C:\Users\MANJU SWAROOP V\webapp\public\assets\images\weblogo.png">
+    <link rel="stylesheet" href="C:\Users\MANJU SWAROOP V\webapp\public\assets\style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel=”stylesheet” href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- TensorFlow JS and Tesseract -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js"></script>
+    <script src="https://unpkg.com/tesseract.js@v2.1.0/dist/tesseract.min.js"></script>
+  </head>
+<body>
+  <nav  class="navbar">
+    <div class="title"><a href="">Sensitivity Data Classification</a></div>
+      <div class="toggle-button">
+        <!-- <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span> -->
+      </div>
+  </div>
+  </nav>
+  
+  <div class="section">
+    <h1 id="header">Special Topic - 67</h1>
+  <div class="big-text">Classification of Image as Sensitive or Non-Sensitive</div>
+  <div class="steps">
+    <div class="single-step">
+      <img src="C:\Users\MANJU SWAROOP V\webapp\public\assets\images\\cameraicon.png" alt="Upload">
+      <div class="single-step-content">
+        <p class="main-title">SELECTING</p>
+        <p>Choose a picture from your device</p>
+      </div>
+    </div>
+    <div class="single-step">
+      <img src="C:\Users\MANJU SWAROOP V\webapp\public\assets\images\upload icon.png" alt="Upload">
+      <div class="single-step-content">
+      <p class="main-title">UPLOADING</p>
+      <p>Upload the picture to SENSITIVITY CHECKER</p>
+      </div>
+    </div>
+    <div class="single-step">
+      <img src="C:\Users\MANJU SWAROOP V\webapp\public\assets\images\detecticon.png" alt="Upload">
+      <div class="single-step-content">
+        <p class="main-title">DETECTION</p>
+        <p>Detect if image is Sensitive or Non-Sensitive</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="main-container">
+    <button>Browse File</button>
+    <div class="drag-area">
+      <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+      <header>Upload your file here</header>
+      <input type="file" onchange="loadFile(event)" hidden>
+      <img src="#" id="output">
+    </div>
+  
+    <div id="progressStatus"> 
+      <div id="progressBar">1%</div> 
+    </div> 
+    <div class="classification non-sensitive main-title"><i class="fas fa-check-square"></i> Non-Sensitive</div>
+    <div class="classification sensitive main-title"><i class="fas fa-times-circle"></i> Sensitive</div>
+  </div>
+  </div>
+
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+<div class="firefly"></div>
+
+<script src="C:\Users\MANJU SWAROOP V\webapp\public\assets\script.js"></script>
+</body>
+</html>
