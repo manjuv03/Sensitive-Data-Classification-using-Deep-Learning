@@ -16,3 +16,12 @@ METHODOLOGY
 The proposed methodology is shown in a flowchart
 
 <img width="882" alt="image" src="https://github.com/manjuv03/Sensitive-Data-Classification-using-Deep-Learning/blob/main/webapp/public/assets/images/Methodology%202.jpeg">
+
+RESULTS
+
+<img width="880" alt="image" src="https://github.com/manjuv03/Sensitive-Data-Classification-using-Deep-Learning/blob/main/webapp/public/assets/images/output%20multiple%20image.jpg">
+
+CONCLUSION
+
+We can conclude how a deeplearning model can be used to implement this model of sensitive data classification.
+Out of all the algorithms like the logistic model, KNN, SVM,CNN, etc., it was found that a Convolutional Neural Network is most suitable for this model of sensitive image classification. CNN is considered because it gives more accuracy as compared to the others algorithms.
