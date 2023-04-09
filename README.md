@@ -14,11 +14,11 @@ METHODOLOGY
 
 The proposed methodology is shown in a flowchart
 
-<img width="800" alt="image" src="https://github.com/manjuv03/Sensitive-Data-Classification-using-Deep-Learning/blob/main/webapp/public/assets/images/Methodology%202.jpeg">
+<img width="882" alt="image" src="https://github.com/manjuv03/Sensitive-Data-Classification-using-Deep-Learning/blob/main/webapp/public/assets/images/Methodology%202.jpeg">
 
 RESULTS
 
-<img width="800" alt="image" src="https://github.com/manjuv03/Sensitive-Data-Classification-using-Deep-Learning/blob/main/webapp/public/assets/images/output%20multiple%20image.jpg">
+<img width="882" alt="image" src="https://github.com/manjuv03/Sensitive-Data-Classification-using-Deep-Learning/blob/main/webapp/public/assets/images/output%20multiple%20image.jpg">
 
 CONCLUSION
 
