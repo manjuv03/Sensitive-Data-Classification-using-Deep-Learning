@@ -10,3 +10,9 @@ ABSTRACT
 Depending on the degree of sensitivity and nature of the information, loss, misuse, modification, or unauthorised access to sensitive information may have a negative impact on an individual's privacy or welfare, a company's trade secrets, or even the security and international relations of a country. In order to classify the information in the photos as sensitive or non-sensitive, we have developed a machine learning algorithm.
 
 <img width="882" alt="image" src="https://github.com/manjuv03/Sensitive-Data-Classification-using-Deep-Learning/blob/main/webapp/public/assets/images/Methodology.jpg">
+
+METHODOLOGY
+
+The proposed methodology is shown in a flowchart
+
+<img width="882" alt="image" src="https://github.com/manjuv03/Sensitive-Data-Classification-using-Deep-Learning/blob/main/webapp/public/assets/images/Methodology%202.jpeg">
