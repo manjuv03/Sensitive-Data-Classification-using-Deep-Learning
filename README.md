@@ -1,7 +1,5 @@
 # SENSITIVE- DATA - CLASSIFICATION - USING - DEEP LEARNING
 
-
-<img alt="VISITORS" src="https://komarev.com/ghpvc/?username=ndleah&style=flat&labelColor=red&logo=github&label=PROFILE+VIEWS&color=971901"/>
 A Machine Learning model that distinguishes between sensitive and non-sensitive data.
 Every person or business can use a model to determine whether or not the photographs they are viewing include sensitive information, preventing the information from being compromised or lost.
 
