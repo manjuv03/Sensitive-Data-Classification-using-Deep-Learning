@@ -1,6 +1,6 @@
 # SENSITIVE- DATA - CLASSIFICATION - USING - DEEP LEARNING
 
-A Machine Learning model that distinguishes between sensitive and non-sensitive data.
+A Machine Learning model that classifies the data in the images as sensitive or non-sensitive. It Involves training a deep learning model to recognize patterns and structures in data sets that are characteristic of sensitive information, thereby protecting the exposure or loss of private and sensitive information.
 Every person or business can use a model to determine whether or not the photographs they are viewing include sensitive information, preventing the information from being compromised or lost.
 
 <img width="882" alt="image" src="https://github.com/manjuv03/Sensitive-Data-Classification-using-Deep-Learning/blob/main/webapp/public/assets/images/Web%20UI.png">
