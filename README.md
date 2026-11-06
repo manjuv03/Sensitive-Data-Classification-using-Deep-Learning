@@ -15,6 +15,8 @@ This project trains a convolutional neural network (CNN) to decide whether an im
 | `Sensitive_Data_Classification.ipynb` | Main notebook: data, model, training, plots and predictions on new images |
 | `Sensitive-data.ipynb` | An earlier run of the same notebook |
 | `dataset/` | Training and validation images, one folder per class |
+| `training_set/` | 32 extra images used to test the trained model |
+| `webapp/` | Browser app (TensorFlow.js) that runs the trained models, with Firebase Hosting config |
 | `figures/` | Figures exported from the main notebook |
 
 ## Dataset
@@ -33,6 +35,19 @@ This project trains a convolutional neural network (CNN) to decide whether an im
 3. Run all cells; the last cell lets you upload your own images and labels each one
 
 Libraries: TensorFlow / Keras, NumPy, Matplotlib, seaborn.
+
+## Web app
+
+`webapp/` is a browser app called **Sensitivity Checker**. You upload a picture and it runs two checks entirely in the browser:
+
+| Check | How it works |
+| --- | --- |
+| Image | The trained CNN (converted to TensorFlow.js) scores the picture, resized to 150 × 150 |
+| Text | Tesseract.js reads any text in the picture, and a text model scores the first 60 words |
+
+The picture is marked **Sensitive** if either score is above 0.5. To run it locally, serve `webapp/public` with any static server (for example `python -m http.server`), after changing the icon and script paths in `index.html` from `C:\Users\...` to relative paths such as `assets/script.js`. It can be deployed with `firebase deploy` from the `webapp` folder.
+
+![Sensitivity Checker web app](webapp/public/assets/images/Web%20UI.png)
 
 ## Notebook structure
 
